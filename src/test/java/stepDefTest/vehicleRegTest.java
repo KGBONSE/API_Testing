@@ -1,9 +1,6 @@
 package stepDefTest;
 
 
-import pages.ConfirmVehicle;
-import pages.StartNow;
-import pages.VehicleReg;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -12,6 +9,9 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import pages.ConfirmVehicle;
+import pages.StartNow;
+import pages.VehicleReg;
 import pages.VehicleRegNotFound;
 
 import java.util.concurrent.TimeUnit;
@@ -29,6 +29,7 @@ public class vehicleRegTest {
     private VehicleRegNotFound vehicleRegNotFound;
 
 
+
     @Before
     public void prepare() {
         driver = new ChromeDriver();
@@ -44,6 +45,7 @@ public class vehicleRegTest {
     public void cleanUp() {
         driver.close();
     }
+
 
     @Given("^I am on the vehicle registration home page$")
     public void i_am_on_the_vehicle_registration_home_page() throws Throwable {
