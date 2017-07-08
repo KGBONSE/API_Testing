@@ -19,8 +19,16 @@ public class VehicleReg {
 
     WebDriver driver;
     @FindBy(css="#Vrm")
-    public WebElement registrationNoInput;
+    private WebElement registrationNoInput;
 
     @FindBy(css=".button")
-    public WebElement continueButton;
+    private WebElement continueButton;
+    
+    public void ClickContinueButton(){
+    	continueButton.click();
+    }
+    
+    public void EnterRegistration(String regDetails){
+    	registrationNoInput.sendKeys(regDetails);
+    }
 }

@@ -18,7 +18,10 @@ public class StartNow {
 
     WebDriver driver;
     @FindBy(css=".button")
-    public WebElement startNowButton;
+    private WebElement startNowButton;
 
+	public void ClickStartNowButton() {
+		startNowButton.click();
+	}
 
 }

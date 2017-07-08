@@ -1,0 +1,5 @@
+pages/VehicleRegNotFound.class
+pages/VehicleReg.class
+models/VehicleInfo.class
+pages/ConfirmVehicle.class
+pages/StartNow.class

@@ -1,0 +1,797 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 158689761,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have vehicle registrations in a file of type \"CSV\" with filename \"vr.csv\" including corresponding expected make and colour",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CSV",
+                  "offset": 48
+                },
+                {
+                  "val": "vr.csv",
+                  "offset": 68
+                }
+              ],
+              "location": "vehicleRegTest.i_have_vehicle_registrations_in_a_file_of_type_with_filename_including_corresponding_expected_make_and_colour(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5650054786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "vehicleRegTest.prepare()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Should verify vehicle registrations  make and colour",
+        "description": "",
+        "id": "verifying-vehicle-registration-details;should-verify-vehicle-registrations--make-and-colour",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4438309204,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I choose to verify the registrations with the dlva",
+            "match": {
+              "location": "vehicleRegTest.i_choose_to_verify_the_registrations_with_the_dlva()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65231,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "there should be no errors",
+            "match": {
+              "location": "vehicleRegTest.there_should_be_no_errors()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying vehicle registration details",
+    "description": "As a user\nI want to be able to navigate to the vehicle regisstration page\nSo I can use the vehicle registration to verify the make and colour of a vehicle",
+    "id": "verifying-vehicle-registration-details",
+    "keyword": "Feature",
+    "uri": "vehicleRegDataDriven.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2033760294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "vehicleRegTest.prepare()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Should verify make and colour of vehicles",
+        "description": "",
+        "id": "verifying-vehicle-registration-details;should-verify-make-and-colour-of-vehicles;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4675733931,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the vehicle registration home page",
+            "match": {
+              "location": "vehicleRegTest.i_am_on_the_vehicle_registration_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 911755490,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my registration details as \"LS05FXG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LS05FXG",
+                  "offset": 36
+                }
+              ],
+              "location": "vehicleRegTest.i_enter_my_registration_details_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124374243,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The colour is \"Black\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Black",
+                  "offset": 15
+                }
+              ],
+              "location": "vehicleRegTest.the_colour_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43803579,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The make is \"Volkswagen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Volkswagen",
+                  "offset": 13
+                }
+              ],
+              "location": "vehicleRegTest.the_make_is(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2079250319,
+              "status": "passed"
+            },
+            "match": {
+              "location": "vehicleRegTest.prepare()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Should verify make and colour of vehicles",
+        "description": "",
+        "id": "verifying-vehicle-registration-details;should-verify-make-and-colour-of-vehicles;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2599651695,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the vehicle registration home page",
+            "match": {
+              "location": "vehicleRegTest.i_am_on_the_vehicle_registration_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 901997221,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my registration details as \"GY06FLE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GY06FLE",
+                  "offset": 36
+                }
+              ],
+              "location": "vehicleRegTest.i_enter_my_registration_details_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172460533,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The colour is \"Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue",
+                  "offset": 15
+                }
+              ],
+              "location": "vehicleRegTest.the_colour_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84602060,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The make is \"Mercedes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mercedes",
+                  "offset": 13
+                }
+              ],
+              "location": "vehicleRegTest.the_make_is(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1701759212,
+              "status": "passed"
+            },
+            "match": {
+              "location": "vehicleRegTest.prepare()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Should verify make and colour of vehicles",
+        "description": "",
+        "id": "verifying-vehicle-registration-details;should-verify-make-and-colour-of-vehicles;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2971920537,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the vehicle registration home page",
+            "match": {
+              "location": "vehicleRegTest.i_am_on_the_vehicle_registration_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1054783026,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my registration details as \"HY08VGJ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HY08VGJ",
+                  "offset": 36
+                }
+              ],
+              "location": "vehicleRegTest.i_enter_my_registration_details_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95131729,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The colour is \"Black\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Black",
+                  "offset": 15
+                }
+              ],
+              "location": "vehicleRegTest.the_colour_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36883578,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The make is \"Ford\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ford",
+                  "offset": 13
+                }
+              ],
+              "location": "vehicleRegTest.the_make_is(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2175520523,
+              "status": "passed"
+            },
+            "match": {
+              "location": "vehicleRegTest.prepare()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Should verify make and colour of vehicles",
+        "description": "",
+        "id": "verifying-vehicle-registration-details;should-verify-make-and-colour-of-vehicles;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7712984186,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the vehicle registration home page",
+            "match": {
+              "location": "vehicleRegTest.i_am_on_the_vehicle_registration_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 684978331,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my registration details as \"LT09UEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LT09UEL",
+                  "offset": 36
+                }
+              ],
+              "location": "vehicleRegTest.i_enter_my_registration_details_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146570860,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The colour is \"Silver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silver",
+                  "offset": 15
+                }
+              ],
+              "location": "vehicleRegTest.the_colour_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67981635,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The make is \"Ford\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ford",
+                  "offset": 13
+                }
+              ],
+              "location": "vehicleRegTest.the_make_is(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1352251706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "vehicleRegTest.prepare()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Should verify make and colour of vehicles",
+        "description": "",
+        "id": "verifying-vehicle-registration-details;should-verify-make-and-colour-of-vehicles;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2911340514,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the vehicle registration home page",
+            "match": {
+              "location": "vehicleRegTest.i_am_on_the_vehicle_registration_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 810764503,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my registration details as \"VE10TKY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VE10TKY",
+                  "offset": 36
+                }
+              ],
+              "location": "vehicleRegTest.i_enter_my_registration_details_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262668824,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The colour is \"Grey\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Grey",
+                  "offset": 15
+                }
+              ],
+              "location": "vehicleRegTest.the_colour_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122850299,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The make is \"Volkswagen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Volkswagen",
+                  "offset": 13
+                }
+              ],
+              "location": "vehicleRegTest.the_make_is(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1915314545,
+              "status": "passed"
+            },
+            "match": {
+              "location": "vehicleRegTest.prepare()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Should verify make and colour of vehicles",
+        "description": "",
+        "id": "verifying-vehicle-registration-details;should-verify-make-and-colour-of-vehicles;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5300260193,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the vehicle registration home page",
+            "match": {
+              "location": "vehicleRegTest.i_am_on_the_vehicle_registration_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3449574878,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my registration details as \"LS06FXH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LS06FXH",
+                  "offset": 36
+                }
+              ],
+              "location": "vehicleRegTest.i_enter_my_registration_details_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292489568,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The colour is \"Silver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silver",
+                  "offset": 15
+                }
+              ],
+              "location": "vehicleRegTest.the_colour_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147568404,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The make is \"Toyota\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toyota",
+                  "offset": 13
+                }
+              ],
+              "location": "vehicleRegTest.the_make_is(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4123171684,
+              "status": "passed"
+            },
+            "match": {
+              "location": "vehicleRegTest.prepare()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Entering a wrong vehicle registration details",
+        "description": "",
+        "id": "verifying-vehicle-registration-details;entering-a-wrong-vehicle-registration-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3306610055,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on the vehicle registration home page",
+            "match": {
+              "location": "vehicleRegTest.i_am_on_the_vehicle_registration_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1197582712,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter my registration details as \"CU57ABC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CU57ABC",
+                  "offset": 36
+                }
+              ],
+              "location": "vehicleRegTest.i_enter_my_registration_details_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142166580,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should get an error message \"Vehicle details could not be found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vehicle details could not be found",
+                  "offset": 31
+                }
+              ],
+              "location": "vehicleRegTest.i_should_get_an_error_message(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying vehicle registration details",
+    "description": "As a user\nI want to be able to navigate to the vehicle regisstration page\nSo I can use the vehicle registration to verify the make and colour of a vehicle",
+    "id": "verifying-vehicle-registration-details",
+    "keyword": "Feature",
+    "uri": "vehicleRegDetails.feature"
+  }
+]

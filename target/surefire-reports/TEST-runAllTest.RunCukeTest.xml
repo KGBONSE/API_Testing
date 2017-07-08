@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="38" failures="0" name="runAllTest.RunCukeTest" time="0.01" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/markkofi/Documents/Applications/API_Testing"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/markkofi/Documents/Applications/API_Testing"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/hv/y1b0r4yx1ds45tq_wg6mw74m0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/markkofi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/markkofi"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="markkofi"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="java.ext.dirs" value="/Users/markkofi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Should verify vehicle registrations  make and colour" name="Given I have vehicle registrations in a file of type &quot;CSV&quot; with filename &quot;vr.csv&quot; including corresponding expected make and colour" time="0.003"/>
+  <testcase classname="Scenario: Should verify vehicle registrations  make and colour" name="When I choose to verify the registrations with the dlva" time="0"/>
+  <testcase classname="Scenario: Should verify vehicle registrations  make and colour" name="Then there should be no errors" time="0"/>
+  <testcase classname="Scenario: Should verify vehicle registrations  make and colour" name="Scenario: Should verify vehicle registrations  make and colour" time="0.001"/>
+  <testcase classname="| LS05FXG | Black | Volkswagen |" name="Given I am on the vehicle registration home page" time="0"/>
+  <testcase classname="| LS05FXG | Black | Volkswagen |" name="When I enter my registration details as &quot;LS05FXG&quot;" time="0"/>
+  <testcase classname="| LS05FXG | Black | Volkswagen |" name="Then The colour is &quot;Black&quot;" time="0"/>
+  <testcase classname="| LS05FXG | Black | Volkswagen |" name="And The make is &quot;Volkswagen&quot;" time="0"/>
+  <testcase classname="| LS05FXG | Black | Volkswagen |" name="| LS05FXG | Black | Volkswagen |" time="0.001"/>
+  <testcase classname="| GY06FLE | Blue | Mercedes |" name="Given I am on the vehicle registration home page" time="0"/>
+  <testcase classname="| GY06FLE | Blue | Mercedes |" name="When I enter my registration details as &quot;GY06FLE&quot;" time="0"/>
+  <testcase classname="| GY06FLE | Blue | Mercedes |" name="Then The colour is &quot;Blue&quot;" time="0"/>
+  <testcase classname="| GY06FLE | Blue | Mercedes |" name="And The make is &quot;Mercedes&quot;" time="0"/>
+  <testcase classname="| GY06FLE | Blue | Mercedes |" name="| GY06FLE | Blue | Mercedes |" time="0"/>
+  <testcase classname="| HY08VGJ | Black | Ford |" name="Given I am on the vehicle registration home page" time="0"/>
+  <testcase classname="| HY08VGJ | Black | Ford |" name="When I enter my registration details as &quot;HY08VGJ&quot;" time="0"/>
+  <testcase classname="| HY08VGJ | Black | Ford |" name="Then The colour is &quot;Black&quot;" time="0"/>
+  <testcase classname="| HY08VGJ | Black | Ford |" name="And The make is &quot;Ford&quot;" time="0"/>
+  <testcase classname="| HY08VGJ | Black | Ford |" name="| HY08VGJ | Black | Ford |" time="0"/>
+  <testcase classname="| LT09UEL | Silver | Ford |" name="Given I am on the vehicle registration home page" time="0"/>
+  <testcase classname="| LT09UEL | Silver | Ford |" name="When I enter my registration details as &quot;LT09UEL&quot;" time="0"/>
+  <testcase classname="| LT09UEL | Silver | Ford |" name="Then The colour is &quot;Silver&quot;" time="0.001"/>
+  <testcase classname="| LT09UEL | Silver | Ford |" name="And The make is &quot;Ford&quot;" time="0"/>
+  <testcase classname="| LT09UEL | Silver | Ford |" name="| LT09UEL | Silver | Ford |" time="0"/>
+  <testcase classname="| VE10TKY | Grey | Volkswagen |" name="Given I am on the vehicle registration home page" time="0"/>
+  <testcase classname="| VE10TKY | Grey | Volkswagen |" name="When I enter my registration details as &quot;VE10TKY&quot;" time="0"/>
+  <testcase classname="| VE10TKY | Grey | Volkswagen |" name="Then The colour is &quot;Grey&quot;" time="0"/>
+  <testcase classname="| VE10TKY | Grey | Volkswagen |" name="And The make is &quot;Volkswagen&quot;" time="0"/>
+  <testcase classname="| VE10TKY | Grey | Volkswagen |" name="| VE10TKY | Grey | Volkswagen |" time="0"/>
+  <testcase classname="| LS06FXH | Silver | Toyota |" name="Given I am on the vehicle registration home page" time="0.001"/>
+  <testcase classname="| LS06FXH | Silver | Toyota |" name="When I enter my registration details as &quot;LS06FXH&quot;" time="0.001"/>
+  <testcase classname="| LS06FXH | Silver | Toyota |" name="Then The colour is &quot;Silver&quot;" time="0"/>
+  <testcase classname="| LS06FXH | Silver | Toyota |" name="And The make is &quot;Toyota&quot;" time="0"/>
+  <testcase classname="| LS06FXH | Silver | Toyota |" name="| LS06FXH | Silver | Toyota |" time="0.002"/>
+  <testcase classname="| CU57ABC | Vehicle details could not be found |" name="Given I am on the vehicle registration home page" time="0"/>
+  <testcase classname="| CU57ABC | Vehicle details could not be found |" name="When I enter my registration details as &quot;CU57ABC&quot;" time="0"/>
+  <testcase classname="| CU57ABC | Vehicle details could not be found |" name="Then I should get an error message &quot;Vehicle details could not be found&quot;" time="0"/>
+  <testcase classname="| CU57ABC | Vehicle details could not be found |" name="| CU57ABC | Vehicle details could not be found |" time="0"/>
+</testsuite>
